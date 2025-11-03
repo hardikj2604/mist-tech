@@ -10,7 +10,7 @@ cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_uJdSftmh}
 As it is a ROT 13 Cipher we have to shift each letter by 13 places which can be done manually by substituting each letter by corresponding letter after 13 places.
 We can take help of online decoders for doing this work of shifting letters by 13 places.
 
-![ROT 16 Decoder](./onlinedecoder.png "Online decoder for ROT 16 Cipher")
+![ROT 16 Decoder](./screenshots/onlinedecoder.png "Online decoder for ROT 16 Cipher")
 
 ### New Learnings
 

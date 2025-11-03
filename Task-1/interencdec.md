@@ -12,15 +12,15 @@ In the hint we are given that "Engaging in various decoding processes is of utmo
 
 After seeing the text in the file it was encoded in some cipher i first thought that it is a Vigenère cipher but it was not then i assumed it to be a Base64 encoding and got `b'd3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrX20wMjEyNzU4fQ=='`
 
-![Base64 Decoder](./base64.png "Online decoder for Base64")
+![Base64 Decoder](./screenshots/base64.png "Online decoder for Base64")
 
 then if we again decode this after removing b' with base64 it gave `wpjvJAM{jhlzhy_k3jy9wa3k_m0212758}` which seem really like our flag format so i got a validation that i am on the right track then it looked like the caeser cipher as we have seen in previous ctf challenge
 
-![Base64 Decoder](./base64_2.png "Online decoder for Base64")
+![Base64 Decoder](./screenshots/base64_2.png "Online decoder for Base64")
 
 i tried bruteforcing for the flag as we did not have the key. and finally we got the flag by this method.
 
-![Caeser Decoder](./caeser.png "Online decoder for Caeser Cipher")
+![Caeser Decoder](./screenshots/caeser.png "Online decoder for Caeser Cipher")
 
 ### New Learnings
 
