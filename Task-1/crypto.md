@@ -50,7 +50,7 @@ After combining all bits and dividing them in 6 bits:
 
 **And now due to only 5 bytes data hence 2 remainder we have to add a = at the end.**
 
-### Therefore HELLO - SEVMTE8=
+#### Therefore HELLO - SEVMTE8=
 
 **Note:** Base64 is **not encryption** — anyone can decode it easily.
 
@@ -89,7 +89,7 @@ To get the original text back, just **shift backward by 3**.
 
 ---
 
-# 3. Vigenère Cipher
+### 3. Vigenère Cipher
 
 **Idea**
 The **Vigenère Cipher** is like a smarter version of the Caesar Cipher.  
@@ -98,7 +98,7 @@ and each letter of that key decides how much to shift each letter in the message
 
 So, every letter is encrypted with a **different shift**, based on the key.
 
-## How It Works
+#### How It Works
 
 - A key letter **A** means shift by **0**.
 - A key letter **B** means shift by **1**.
@@ -108,13 +108,13 @@ So, if your message is longer than the key, you **repeat the key** until both ar
 
 Each letter of the message is then encrypted with its corresponding letter of the key:
 
-## Step-by-Step Example
+#### Step-by-Step Example
 
 **Plaintext:** `HELLO`
 
 **Key:** `KEY`
 
-### Step 1: Repeat the key
+#### Step 1: Repeat the key
 
 We repeat the key to match the message length:
 
@@ -122,7 +122,7 @@ First, repeat the key to match the message length:
 
 **Key:** `KEYKE`
 
-### Step 2: Convert Letters to numbers
+#### Step 2: Convert Letters to numbers
 
 - H --> 7 -- K --> 10
 - E --> 4 -- E --> 4
@@ -130,7 +130,7 @@ First, repeat the key to match the message length:
 - L --> 11 -- K --> 10
 - O --> 14 -- E --> 4
 
-### Step 3: Encrypt each letter with its key
+#### Step 3: Encrypt each letter with its key
 
 - H --> 17 -- R
 - E --> 8 -- I
